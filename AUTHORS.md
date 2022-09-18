@@ -1,6 +1,6 @@
 # Authors
 
-This file lists all persons who contributed to xtd (in order of appearance). If you're missing in this file, please add yourself with contact info.
+This file lists all persons who contributed to libjxtd (in order of appearance). If you're missing in this file, please add yourself with contact info.
 
 ## Developers
 
