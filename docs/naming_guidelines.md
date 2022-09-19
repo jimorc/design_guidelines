@@ -8,7 +8,7 @@ The goal of this chapter is to provide a consistent set of naming conventions th
 sense to the library developers and users of the library.
 
 ## In This Section
-
+* [Capitalisation Conventions](capitalisation_conventions.md)
 
 ## See Also
-[Design Guildelines](design_guidelines.md)
+* [Design Guildelines](design_guidelines.md)
