@@ -9,4 +9,5 @@ This document and its subdocuments provide guidelines for coding additions to th
 
  # Guidelines
  * [Coding Conventions Guidelines](coding_conventions_guidelines.md)
+ * [Naming Guidelines](naming_guidelines.md)
  
