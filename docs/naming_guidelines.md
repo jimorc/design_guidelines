@@ -9,6 +9,7 @@ sense to the library developers and users of the library.
 
 ## In This Section
 * [Capitalisation Conventions](capitalisation_conventions.md)
+* [General Naming Conventions](general_naming_conventions.md)
 
 ## See Also
 * [Design Guildelines](design_guidelines.md)
