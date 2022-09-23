@@ -29,4 +29,4 @@ However, they must be followed for any addition to this library.
 # Guidelines
 * [Coding Conventions Guidelines](coding_conventions_guidelines.md)
 * [Naming Guidelines](naming_guidelines.md)
- 
+* [Type Design Guidelines](type_design_guidelines.md) 
