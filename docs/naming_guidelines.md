@@ -13,6 +13,7 @@ sense to the library developers and users of the library.
 * [Names of Programs and Libraries](names_of_programs_and_libraries.md)
 * [Namespace Naming](namespace_naming.md)
 * [Names of Classes, Structs and Interfaces](names_of_classes_structs_and_interfaces.md)
+* [Names of Type Members](names_of_type_members.md)
 
 ## See Also
 * [Design Guildelines](design_guidelines.md)
