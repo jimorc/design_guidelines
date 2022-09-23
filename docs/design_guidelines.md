@@ -23,10 +23,10 @@ This document and its subdocuments provide guidelines for coding additions to th
 The guidelines in this document attempt to satisfy most of the requirements outlined by Daniel. Where personal choice is
 involved, I am the sole source for the guidelines and specifications. That is because I started this project.
 
- The guidelines are organized as simple recommendations prefixed with the terms *Do*, *Consider*, *Avoid*, and *Do not*. 
- However, they must be followed for any addition to this library.
+The guidelines are organized as simple recommendations prefixed with the terms *Do*, *Consider*, *Avoid*, and *Do not*. 
+However, they must be followed for any addition to this library.
 
- # Guidelines
- * [Coding Conventions Guidelines](coding_conventions_guidelines.md)
- * [Naming Guidelines](naming_guidelines.md)
+# Guidelines
+* [Coding Conventions Guidelines](coding_conventions_guidelines.md)
+* [Naming Guidelines](naming_guidelines.md)
  
