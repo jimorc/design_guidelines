@@ -15,6 +15,7 @@ sense to the library developers and users of the library.
 * [Names of Classes, Structs and Interfaces](names_of_classes_structs_and_interfaces.md)
 * [Names of Type Members](names_of_type_members.md)
 * [Naming Parameters](naming_parameters.md)
+* [Naming Resources](naming_resources.md)
 
 ## See Also
 * [Design Guildelines](design_guidelines.md)
