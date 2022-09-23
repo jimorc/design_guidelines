@@ -12,6 +12,7 @@ sense to the library developers and users of the library.
 * [General Naming Conventions](general_naming_conventions.md)
 * [Names of Programs and Libraries](names_of_programs_and_libraries.md)
 * [Namespace Naming](namespace_naming.md)
+* [Names of Classes, Structs and Interfaces](names_of_classes_structs_and_interfaces.md)
 
 ## See Also
 * [Design Guildelines](design_guidelines.md)
