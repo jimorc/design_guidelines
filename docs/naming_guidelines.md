@@ -11,6 +11,7 @@ sense to the library developers and users of the library.
 * [Capitalisation Conventions](capitalisation_conventions.md)
 * [General Naming Conventions](general_naming_conventions.md)
 * [Names of Programs and Libraries](names_of_programs_and_libraries.md)
+* [Namespace Naming](namespace_naming.md)
 
 ## See Also
 * [Design Guildelines](design_guidelines.md)
