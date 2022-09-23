@@ -27,6 +27,7 @@ unrelated functionality.
 ## In This Section
 
 * [Choosing Between Class and Struct](choosing_between_class_and_struct.md)
+* [Abstract Class Design](abstract_class_design.md)
 
 ## See Also
 
