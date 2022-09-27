@@ -30,6 +30,7 @@ unrelated functionality.
 * [Abstract Class Design](abstract_class_design.md)
 * [Static Class Design](static_class_design.md)
 * [Interface Design](interface_design.md)
+* [Struct Design](struct_design.md)
 
 ## See Also
 
