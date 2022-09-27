@@ -94,7 +94,9 @@ poorly written applications may not handle the new value correctly.
 
 If you have real data about application incompatibilities caused by additions to an enum, consider adding a new API
 that returns the new and old values, and deprecate the old API, which should continue returning just the old values.
-This will ensure that your existing applications remain compatible.## See Also
+This will ensure that your existing applications remain compatible.
+
+## See Also
 
 * [Type Design Guidelines](type_design_guidelines.md)
 * [Design Guidelines](design_guidelines.md)
