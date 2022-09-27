@@ -29,6 +29,7 @@ unrelated functionality.
 * [Choosing Between Class and Struct](choosing_between_class_and_struct.md)
 * [Abstract Class Design](abstract_class_design.md)
 * [Static Class Design](static_class_design.md)
+* [Interface Design](interface_design.md)
 
 ## See Also
 
