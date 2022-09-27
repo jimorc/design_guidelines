@@ -31,6 +31,7 @@ unrelated functionality.
 * [Static Class Design](static_class_design.md)
 * [Interface Design](interface_design.md)
 * [Struct Design](struct_design.md)
+* [Enum Design](enum_design.md)
 
 ## See Also
 
