@@ -15,6 +15,7 @@ This chapter offers basic guidelines that should be followed when designing memb
 * [Property Design](property_design.md)
 * [Constructor Design](constructor_design.md)
 * [Event Design](event_design.md)
+* [Field Design](field_design.md)
 
 ## See Also
 
