@@ -32,6 +32,7 @@ unrelated functionality.
 * [Interface Design](interface_design.md)
 * [Struct Design](struct_design.md)
 * [Enum Design](enum_design.md)
+* [Nested Types](nested_types.md)
 
 ## See Also
 
