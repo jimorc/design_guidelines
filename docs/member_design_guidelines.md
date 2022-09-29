@@ -16,6 +16,7 @@ This chapter offers basic guidelines that should be followed when designing memb
 * [Constructor Design](constructor_design.md)
 * [Event Design](event_design.md)
 * [Field Design](field_design.md)
+* [Operator Overloads](operator_overloads.md)
 
 ## See Also
 
