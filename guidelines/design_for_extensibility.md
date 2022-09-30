@@ -12,6 +12,7 @@ you can never take it away without introducing breaking changes.
 
 ## In This Section
 
+* [Non-final Classes](non-final_classes.md)
 
 ## See Also
 
