@@ -14,6 +14,7 @@ you can never take it away without introducing breaking changes.
 
 * [Non-final Classes](non-final_classes.md)
 * [Protected Members](protected_members.md)
+* [Events and Callbacks](events_and_callbacks.md)
 
 ## See Also
 
