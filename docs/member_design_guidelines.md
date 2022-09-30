@@ -17,6 +17,7 @@ This chapter offers basic guidelines that should be followed when designing memb
 * [Event Design](event_design.md)
 * [Field Design](field_design.md)
 * [Operator Overloads](operator_overloads.md)
+* [Parameter Design](parameter_design.md)
 
 ## See Also
 
