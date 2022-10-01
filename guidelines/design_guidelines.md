@@ -32,3 +32,4 @@ However, they must be followed for any addition to this library.
 * [Type Design Guidelines](type_design_guidelines.md) 
 * [Member Design Guidelines](member_design_guidelines.md)
 * [Design for Extensibility](design_for_extensibility.md)
+* [Design Guidelines for Exception](design_guidelines_for_exception.md)
