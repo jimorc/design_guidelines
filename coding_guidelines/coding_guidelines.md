@@ -11,8 +11,12 @@ code more easily.
  
 Coding guidelines differ from design guidelines which specify how the code should be organized. For example, design
 guidelines specify how to design for extensibility, how to use exceptions, design patterns to use and when, and so forth.
+You will find some overlap between the two sets of guidelines because it is difficult at times to separate them. You will
+also find links provided between the two where appropriate.
 
- You will find some overlap between the two sets of guidelines because it is difficult at times to separate them.
+The guidelines are organized as simple recommendations prefixed with the terms **✓Do**, **🤔 Consider**, **❌ Avoid**, 
+and  **❌ Do not**. 
+However, they must be followed for any addition or modifications to the projects that specify these guidelines.Here are the coding guidelines for my projects.
 
 Here are the coding guidelines for my projects.
 
