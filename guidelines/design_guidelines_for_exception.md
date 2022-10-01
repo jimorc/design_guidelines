@@ -6,6 +6,7 @@ presents guidelines for using them effectively.
 
 ## In This Section
 
+* [Exception Throwing](exception_throwing.md)
 
 ## See Also
 
