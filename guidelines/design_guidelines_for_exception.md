@@ -8,6 +8,7 @@ presents guidelines for using them effectively.
 
 * [Exception Throwing](exception_throwing.md)
 * [Using Standard Exception Types](using_standard_exception_types.md)
+* [Exceptions and Performance](exceptions_and_performance.md)
 
 ## See Also
 
