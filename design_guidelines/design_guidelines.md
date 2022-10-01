@@ -27,11 +27,14 @@ The guidelines are organized as simple recommendations prefixed with the terms *
 and  **❌ Do not**. 
 However, they must be followed for any addition or modifications to the projects that specify these guidelines.
 
-# Guidelines
-* [Coding Conventions Guidelines](coding_conventions_guidelines.md)
+## Guidelines
 * [Naming Guidelines](naming_guidelines.md)
 * [Type Design Guidelines](type_design_guidelines.md) 
 * [Member Design Guidelines](member_design_guidelines.md)
 * [Design for Extensibility](design_for_extensibility.md)
 * [Design Guidelines for Exception](design_guidelines_for_exception.md)
 * [Common Design Patterns](common_design_patterns.md)
+
+## See Also
+
+* [Coding Guidelines](../coding_guidelines/coding_guidelines.md)
