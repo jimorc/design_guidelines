@@ -33,3 +33,4 @@ However, they must be followed for any addition to this library.
 * [Member Design Guidelines](member_design_guidelines.md)
 * [Design for Extensibility](design_for_extensibility.md)
 * [Design Guidelines for Exception](design_guidelines_for_exception.md)
+* [Common Design Patterns](common_design_patterns.md)
