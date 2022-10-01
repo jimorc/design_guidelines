@@ -18,6 +18,7 @@ you can never take it away without introducing breaking changes.
 * [Virtual Members](virtual_members.md)
 * [Abstractions (Abstract Types and Interfaces)](abstractions_abstract_types_and_interfaces.md)
 * [Base Classes for Implementing Abstractions](base_classes_for_implementing_abstractions.md)
+* [Final Classes](final_classes.md)
 
 ## See Also
 
