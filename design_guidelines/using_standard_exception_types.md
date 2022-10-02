@@ -32,7 +32,7 @@ member. Prefer the most derived exception type, if applicable.
 **✓ Do** include the parameter name for std::invalid_argument, or set the param_name property for xtd::argument_exception
 when throwing one of its subclasses.
 
-This property represent the name of the parameter that caused the exception to be thrown. Note that the property can be
+This property represents the name of the parameter that caused the exception to be thrown. Note that the property can be
 set for xtd::argument_exception using one of the construction overloads.
 
 **✓ Do** use *value* for the name of the implicit value parameter of property setters.
@@ -57,7 +57,7 @@ system or by the xtd infrastructure.
 
 **❌ Do not** catch std::bad_alloc or xtd::out_of_memory_exception.
 
-It is almost impossible to write code that remains consisten in the presence of arbitrary out of memory exceptions.
+It is almost impossible to write code that remains consistent in the presence of arbitrary out of memory exceptions.
 
 ## Com, SEH, and execution_engine_exception
 
