@@ -8,7 +8,7 @@ performance can be orders of magnitude slower. However, it is possible to use ei
 ## Tester-Doer Pattern
 
 Sometimes performance of an exception-throwing member can be improved by breaking the member into two. Let's look at
-the method of the std::vector<type_t> interface:
+the *at* method of the std::vector<type_t> interface:
 
 ```C++
 std::vector<int> numbers = ...
