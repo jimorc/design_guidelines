@@ -1,13 +1,13 @@
 # Operator Overloads
 
 The principle of encapsulation is one of the most important notions in object-oriented design. This principle states
-that data stored inside an objet should be accessible only to that type.
+that data stored inside an object should be accessible only to that type.
 
 Operator overloads allow framework and library types to appear as if they were built-in language primitive types.
 
 Although allowed and useful in some situations, operator overloads should be used cautiously. There are many cases
 in which operator overloading can be abused, such as when designers and developers start to use operators for
-operations tht should be simple methods.
+operations that should be simple methods.
 
 The following guidelines should help you to decide when and how to use operator overloading.
 
@@ -17,7 +17,7 @@ The following guidelines should help you to decide when and how to use operator 
 
 For example, std::string has operator= and operator+= defined.
 
-**✓ Do** defime operator overloads in structs that represent numbers.
+**✓ Do** define operator overloads in structs that represent numbers.
 
 **❌ Do not** be cute when defining operator overloads.
 
@@ -101,7 +101,7 @@ a virtual method called *equals* that is called from within operator== and opera
    * The base objects are equal.
    * The fields added by the *cl* class are equal.
 
-C++ Operators
+## C++ Operators
 Most, but not all operators can be overloaded. See [Operators in C and C++](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B) for a list of all operators, prototype examples, and whether they can be overloaded.
 
 # See Also
