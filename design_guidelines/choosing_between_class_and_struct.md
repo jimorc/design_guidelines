@@ -4,7 +4,7 @@ One of the basic design decisions every framework and library designer faces is 
 a struct.
 
 The only difference between a class and a struct in C++ is that structs have default public members and bases, and
-classes have default private members and basess. Both classes and structs can have a mixture of public and
+classes have default private members and bases. Both classes and structs can have a mixture of public and
 private members, can use inheritance, and can have member functions.
 
 **🤔 Consider** defining a struct instead of a class if instances of the type are small and commonly short-lived or
