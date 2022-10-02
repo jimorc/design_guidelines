@@ -18,7 +18,7 @@ classes, then you may define a simple enum. But a better choice would be to cast
 enum or integer value in that case.
 
 
-**✓ Do** use an emun class to strongly type parameters, properties, and return values that represent sets of values.
+**✓ Do** use an enum class to strongly type parameters, properties, and return values that represent sets of values.
 
 **✓ Do** favor using enum class values instead of static constants.
 
