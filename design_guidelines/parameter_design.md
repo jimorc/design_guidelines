@@ -1,7 +1,7 @@
 # Parameter Design
 
 This section provides broad guidelines on parameter design, including sections for checking arguments. In addition,
-you should refer to guidelines  described in [Naming Parameters](naming_parameters.md).
+you should refer to guidelines  described in [Naming Parameters](../coding_guidelines/naming_parameters.md).
 
 **✓ Do** use the least derived parameter type that provides the functionality required by the member.
 
@@ -59,7 +59,7 @@ If the member is security sensitive, you are encouraged to make a copy and then 
 From the perspecive of a framework designer, there are three main types of parameters: value parameters, const ref
 parameters, and ref parameters. 
 
-When an argument is passed through a by value, the member receives a copy of the actual argument passed in. C++ defaults
+When an argument is passed through by value, the member receives a copy of the actual argument passed in. C++ defaults
 to passing parameters by value.
 
 When an argument is passed through a ref parameter or a const ref parameter, the member receives a reference to the
