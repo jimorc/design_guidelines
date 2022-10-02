@@ -32,7 +32,7 @@ it should probably not be nested.
 
 If a type can be instantiated, that seems to indicate the type has a place in the framework on its own (you
 can create it, work with it, and destroy it without ever using the outer type), and thus it should not be nested.
-Inner types should not be widely resued outside of the outer type without any relationship whatsoever to the
+Inner types should not be widely reused outside of the outer type without any relationship whatsoever to the
 outer type.
 
 **❌ Do not** define a nested type as a member of an interface.
