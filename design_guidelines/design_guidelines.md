@@ -25,7 +25,7 @@ involved, I am the sole source for the guidelines and specifications. That is be
 
 The guidelines are organized as simple recommendations prefixed with the terms **✓ Do**, **🤔 Consider**, **❌ Avoid**, 
 and  **❌ Do not**. 
-However, they must be followed for any addition or modifications to the projects that specify these guidelines.
+However, they must be followed for any additions or modifications to the projects that specify these guidelines.
 
 ## Guidelines
 * [Type Design Guidelines](type_design_guidelines.md) 
