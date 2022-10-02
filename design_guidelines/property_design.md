@@ -12,7 +12,7 @@ the getter.
 
 For example, do not use properties with a public setter and a protected getter.
 
-If the property getter cannot be provided, implement the functionality as a method instead. Consider starting the
+If the property setter cannot be provided, implement the functionality as a method instead. Consider starting the
 method name with set_ and follow with what you would have named the property. For example, a domain class might have
 a method called set_cache_path instead of having a set-only property called cache_path.
 
