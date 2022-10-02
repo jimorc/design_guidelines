@@ -7,12 +7,12 @@ using other callback mechanisms.
 
 It is important to note that there are two groups of events: events raised before a state of the system changes,
 called pre-events, and events raised after a state changes, called post-events. An example of a pre-event would be
-window::closing, whih is raised before a window is closed. An example of a post_event would be window::closed,
+window::closing, which is raised before a window is closed. An example of a post_event would be window::closed,
 which is raised after the window is closed.
 
 **✓ Do** use the term "raise" for events rather than "fire" or "trigger".
 
-The following guidelines appliy specifically to libjxtd:
+The following guidelines apply specifically to libjxtd:
 
 * **✓ Do** use xtd::generic_event_handler<event_args_t> instead of manually creating new delegates to be used as
 event handlers.
