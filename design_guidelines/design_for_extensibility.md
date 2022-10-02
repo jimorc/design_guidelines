@@ -2,7 +2,7 @@
 
 One important aspect of designing a framework is making sure the extensibility of the framework has been carefully
 considered. This requires that you understand the costs and benefits associated with various extensibility
-mechanisms. This chapter helps you decide which of the extensibility mechanism - subclassing, events, virtual members,
+mechanisms. This chapter helps you decide which of the extensibility mechanisms - subclassing, events, virtual members,
 callbacks, and so on - can best meet the requirements of the framework.
 
 There are many ways to allow extensibility in frameworks. They range from less powerful and less costly to very
