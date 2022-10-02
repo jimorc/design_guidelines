@@ -10,7 +10,7 @@ extension methods.
 
 **✓ Do** use static classes sparingly.
 
-Static classes should be used only as supporting classes for the object-oriented core of the library or framework.
+Static classes should be used only as supporting classes for the object-oriented core of a framework.
 
 **❌ Do not** treat a static class as a miscellaneous bucket.
 
@@ -19,7 +19,7 @@ have built-in support for static classes.
 
 **❌ Do not** instantiate a static class.
 
-A simple static class that contains only static accessor, method, and data members can be instantiated, although the instantiated object is zero bytes in size. Instantiating a static class makes the code longer, makes it harder to follow what is being done, and lengthens the compile time slightly. 
+A simple static class that contains only static accessors, methods, and data members can be instantiated, although the instantiated object is zero bytes in size. Instantiating a static class makes the code longer, makes it harder to follow what is being done, and lengthens the compile time slightly. 
 
 There are a number of ways of declaring a static class to prevent it from being instantiated.
 
