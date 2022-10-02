@@ -28,7 +28,6 @@ and  **❌ Do not**.
 However, they must be followed for any addition or modifications to the projects that specify these guidelines.
 
 ## Guidelines
-* [Naming Guidelines](naming_guidelines.md)
 * [Type Design Guidelines](type_design_guidelines.md) 
 * [Member Design Guidelines](member_design_guidelines.md)
 * [Design for Extensibility](design_for_extensibility.md)

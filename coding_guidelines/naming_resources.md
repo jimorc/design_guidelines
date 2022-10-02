@@ -23,4 +23,4 @@ The resource identifier should be the exception type name plus a short identifie
 
 ## See Also
 * [Naming Guidelines](naming_guidelines.md)
-* [Design Guidelines](design_guidelines.md)
+* [Design Guidelines](../design_guidelines/design_guidelines.md)

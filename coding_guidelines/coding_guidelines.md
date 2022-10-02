@@ -570,6 +570,12 @@ for (int i = 0; i < 10; ++i)
 int a = (5 + b) * c;
 ```
 
+## Guidelines
+
+* [Naming Guidelines](naming_guidelines.md)
+
+
 ## See Also
+
 
 * [Design Guidelines](../design_guidelines/design_guidelines.md)

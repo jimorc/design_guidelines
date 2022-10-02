@@ -69,7 +69,8 @@ names in C++.
 | long double | long double | 16 |
 | bool | bool | 1 |
 | wchar_t | wchar_t | 4 |
-| char* | string | variable |
+| int* | intptr_t | variable: 4 on 32-bit machines, 8 on 64-bit machines |
+| uint* | uintptr_t | variable: 4 on 32-bit machines, 8 on 64-bit machines |
 
 **✓ Do** use a common name, such as value or item, rather than repeating the type name, in the rare cases
 when an identifier has no semantic meaning and the type of the parameter is not important.
@@ -101,4 +102,4 @@ it for brand new APIs with only a 64-bit version.
 
 ## See Also
 * [Naming Guidelines](naming_guidelines.md)
-* [Design Guidelines](design_guidelines.md)
+* [Design Guidelines](../design_guidelines/design_guidelines.md)

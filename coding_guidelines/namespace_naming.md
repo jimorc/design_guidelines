@@ -15,15 +15,15 @@ Here are some examples:
 **✓ Do** prefix namespace names with a company name of *jimo* to prevent namespaces from different companies from having
 the same name.
 
-**✓ Do** use a stable, version-independent product name at the second level of the namespace name. For this project, use
-*jxtd*.
+**✓ Do** use a stable, version-independent product name at the second level of the namespace name. For example, use
+*xtd_widgets* in libjxtd.
 
 ## Namespace and Type Name Conflicts
 
 **❌ Do not** use the same name for a namespace name and a type in that namespace.
 
-For example, do not use jimo as a namespace name and then also provide a class named jimo in the same namespace.
-Several compilers require such types to be fuly qualified.
+For example, do not use *jimo* as a namespace name and then also provide a class named *jimo* in the same namespace.
+Several compilers require such types to be fully qualified.
 
 **❌ Do not** introduce generic type names such as element, node, log, and message.
 
@@ -32,4 +32,4 @@ qualify the generic type names (form_element, xml_node, event_log, soap_message)
 
 ## See Also
 * [Naming Guidelines](naming_guidelines.md)
-* [Design Guidelines](design_guidelines.md)
+* [Design Guidelines](../design_guidelines/design_guidelines.md)

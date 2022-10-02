@@ -20,16 +20,16 @@ tag
 an underscore "_". This is the standard naming convention used in C, and also in the C++ standard library. For
 example:
 ```
-property_desctiptor
+property_descriptor
 tag
 ```
 
 You will see all of these capitalisation rules used in C++ code and in C++ library APIs. No single rule is better than
-another; what is important is consistency within a library or project.
+another; what is important is consistency within a framework or project.
 
-**✓ Do** use snake_case for identifiers throughout the libjxtd project.
+**✓ Do** use snake_case for identifiers throughout the project.
 
-A special case is made for tw- or three-letter acronyms in which both or all three letters are not separated.
+A special case is made for two- or three-letter acronyms in which both or all three letters are not separated.
 For example:
 ```
 io_stream
@@ -53,7 +53,7 @@ class myclass
 Most compound words and terms are treaed as single words.
 
 **✓ Do** treat common compound words as a single word. Use a current dictionary if necessary to determine if a 
-compound word is written in closed form
+compound word is written in closed form.
 
 Here are some examples:
 
@@ -80,4 +80,4 @@ C++ is case sensitive.
 
 ## See Also
 * [Naming Guidelines](naming_guidelines.md)
-* [Design Guidelines](design_guidelines.md)
+* [Design Guidelines](../design_guidelines/design_guidelines.md)

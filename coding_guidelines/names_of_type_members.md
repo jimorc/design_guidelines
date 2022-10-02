@@ -46,7 +46,7 @@ to data, and the name of the property reflects that. snake_casing is always used
 class big_number
 {
     public:
-        long long& value() const noexcept { return _value; }
+        long long value() const noexcept { return _value; }
         void value(const long long& big_value) noexcept { _value = big_value; }
     private:
         long long _value;
@@ -55,8 +55,17 @@ class big_number
 
 Using "get_" and "set_" indicates that the property should really be a method.
 
-**✓ Do** name collection properties with a plural phrase describing the items in the collection instead pf using
+**✓ Do** name collection properties with a plural phrase describing the items in the collection instead of using
 a singular phrase followed by "_collection".
+
+```C++
+class widget
+{
+    public:
+        items_collection& items() { return _items; }
+    private:
+        items_collection _items;
+}
 
 **✓ Do** name boolean properties with an affirmative phrase (can_seek instead of cant_seek). Optionally, you can
 also prefix boolean properties with "is_", "can_", or "has_" but only where it adds value.
@@ -102,7 +111,7 @@ using clicked_event_handler = delegate<void(object&, consst event_args&)>;
 **✓ Do** use two parameters named *sender* and *e* in event handlers.
 
 The *sender* parameter represents the object that raised the event. The *sender* parameter is typically of type
-object, even if it is possible to employ a more specific type.
+*object*, even if it is possible to employ a more specific type.
 
 **✓ Do** name event argument classes with the "event_args" suffix.
 
@@ -141,4 +150,4 @@ class big_number
 
 ## See Also
 * [Naming Guidelines](naming_guidelines.md)
-* [Design Guidelines](design_guidelines.md)
+* [Design Guidelines](../design_guidelines/design_guidelines.md)

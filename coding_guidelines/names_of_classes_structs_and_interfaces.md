@@ -14,10 +14,12 @@ and not an interface.
 
 **❌ Do not** give class names a prefix (e.g. "C", or "c").
 
+**❌ Do not** add a postfix of "_base" to base classes.
+
 **🤔 Consider** ending the name of derived classes with the name of the base class.
 
 This is very readable and explains the relationship clearly. Some examples of this in code are: main_form, which is a
-type of form, and ok_button, which is a type of button. However, it is important to use reasonable judgment in
+type of form, and toggle_button, which is a type of button. However, it is important to use reasonable judgment in
 applying this guideline; for example, the button class is a kind of control event, although control does not appear 
 in its name.
 
@@ -66,17 +68,17 @@ For example, a parameter constrained to isession might be called *session_t*.
 ## Names of Common Types
 
 **✓ Do** follow the guidelines described in the following table when naming types derived from or implementing
-certain jxtd types.
+certain xtd_widgets types.
 
 | Base Type | Derived/Implementing Type Guideline |
 | --- | --- |
-| jxtd::delegate | **✓ Do** add the suffix "_event_handler" to names of delegates that are used in events. |
-| jtdx::delegate | **✓ Do** add the suffix "_callback" to names of delegates other than those used as event handlers |
-| jtdx::delegate | **❌ Do not** add the suffix "_delegate" to a delegate |
-| jxtd::event_args | **✓ Do** add the suffix "_event_args". |
-| jxtd::event_handler | **✓ Do** add the suffix "_event_handler". |
+| xtd_widgets::delegate | **✓ Do** add the suffix "_event_handler" to names of delegates that are used in events. |
+| xtd_widgets::delegate | **✓ Do** add the suffix "_callback" to names of delegates other than those used as event handlers |
+| xtd_widgets::delegate | **❌ Do not** add the suffix "_delegate" to a delegate |
+| xtd_widgets::event_args | **✓ Do** add the suffix "_event_args". |
+| xtd_widgets::event_handler | **✓ Do** add the suffix "_event_handler". |
 | enum class | **❌ Do not** add the suffix "_enum" or "_flag". |
-| jxtd::exception | **✓ Do** add the suffix "_exception". |
+| xtd_widgets::exception | **✓ Do** add the suffix "_exception". |
 | std::array | **✓ Do** add the suffix "_collection" for sequence containers. |
 | std::vector | **✓ Do** add the suffix "_collection" for sequence containers. |
 | std::deque | **✓ Do** add the suffix "_collection" for sequence containers. |
@@ -112,4 +114,4 @@ Names of enumeration type(also called enums) in general should follow the standa
 
 ## See Also
 * [Naming Guidelines](naming_guidelines.md)
-* [Design Guidelines](design_guidelines.md)
+* [Design Guidelines](../design_guidelines/design_guidelines.md)

@@ -42,4 +42,4 @@ CMake also is familiar with these naming conventions, so it automatically prepen
 ## See Also
 
 * [Naming Guidelines](naming_guidelines.md)
-* [Design Guidelines](design_guidelines.md)
+* [Design Guidelines](../design_guidelines/design_guidelines.md)

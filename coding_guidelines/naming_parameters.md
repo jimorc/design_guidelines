@@ -11,9 +11,9 @@ are displayed in documentation and when IDEs provide intellisense and class brow
 
 ## Naming Operator Overload Parameter
 
-**✓ Do** use left and right for binary operator overload parameter names if there is no meaning to the parameters.
+**✓ Do** use *left* and *right* for binary operator overload parameter names if there is no meaning to the parameters.
 
-**✓ Do** use value for the unary operator overload parameter name if there is no meaning to the parameter.
+**✓ Do** use *value* for the unary operator overload parameter name if there is no meaning to the parameter.
 
 **✓ Do** use meaningful names for operator overload parameters if doing so adds significant value.
 
@@ -21,4 +21,4 @@ are displayed in documentation and when IDEs provide intellisense and class brow
 
 ## See Also
 * [Naming Guidelines](naming_guidelines.md)
-* [Design Guidelines](design_guidelines.md)
+* [Design Guidelines](../design_guidelines/design_guidelines.md)
