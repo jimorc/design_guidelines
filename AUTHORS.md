@@ -4,6 +4,7 @@ This file lists all persons who contributed to these guidelines (in order of app
 
 ## Developers
 
-* [jimorc](https://computingonplains.wordpress.com) - Main developer, owner
+* jimorc [GitHub](https://github.com/jimorc), [C++ Website](https://cppprogdevel.wordpress.com),
+[General Computing Website](https://computingonplains.wordpress.com) - Main developer, owner
 
 ## Contributors
