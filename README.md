@@ -56,4 +56,4 @@ for designing and building good C++ applications, libraries, and frameworks.
 One final thing: if you are planning to contribute to one of my projects, then you must follow my guidelines. If you
 contribute to other projects, you are expected to follow their coding and design guidelines. In many cases, one set
 of guidelines is not better or worse than another set, just different. But having guidelines that are followed by
-everyone contributing to a project makes life easier for everyone who ever work on that project.
+everyone contributing to a project makes life easier for everyone who ever works on that project.
