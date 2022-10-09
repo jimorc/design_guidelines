@@ -20,16 +20,16 @@ class big_number
 };
 ```
 
-**✓ Do** start private methods with an underscore.
+**✓ Do** postfix private methods with an underscore.
 
 ```C++
 class big_number
 {
     public:
         int compare_to(const big_number&) const noexcept;
-        void increment() { _add_one(); }
+        void increment() { add_one_(); }
     private:
-        void _add_one();
+        void add_one_();
 };
 ```
 
@@ -135,7 +135,7 @@ For example, do not use "g_" or "s_" to indicate static fields.
 
 ## Private Instance Fields
 
-**✓ Do** prefix all private instance fields with an underscore.
+**✓ Do** postfix all private instance fields with an underscore.
 
 ```C++
 class big_number
@@ -144,7 +144,7 @@ class big_number
         long long& value() const noexcept { return _value; }
         void value(const long long& big_value) noexcept { _value = big_value; }
     private:
-        long long _value;
+        long long value_;
 };
 ```
 
