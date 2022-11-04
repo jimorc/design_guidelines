@@ -27,30 +27,31 @@ tag
 You will see all of these capitalisation rules used in C++ code and in C++ library APIs. No single rule is better than
 another; what is important is consistency within a framework or project.
 
-**✓ Do** use snake_case for identifiers throughout the project.
+**✓ Do** use PascalCase for identifiers throughout the project.
 
-A special case is made for two- or three-letter acronyms in which both or all three letters are not separated.
+A special case is made for two-, three-, or four-letter acronyms in which both or all three letters are not separated.
 For example:
 ```
-io_stream
-my_sdr
+IOStream
+mySDR
+GPIO
 ```
 
-**✓ Do** start all private properties, events, methods, and members with "_" to differentiate them from public
+**✓ Do** start all private properties with "m_" to differentiate them from public
 and protected identifiers.
 
 ```C++
-class myclass
+class MyClass
 {
     public:
-        int value() const { return _value; }
+        int Value() const { return m_value; }
     private:
-        int _value;
+        int m_value;
 }
 ```
 
  ## Compound Words and Common Terms
-Most compound words and terms are treaed as single words.
+Most compound words and terms are treated as single words.
 
 **✓ Do** treat common compound words as a single word. Use a current dictionary if necessary to determine if a 
 compound word is written in closed form.
@@ -59,21 +60,19 @@ Here are some examples:
 
 | Use | Not |
 | --- | --- |
-| bit_flag | bitflag |
-| callback | call_back |
-| do_not | dont |
-| email | e_mail |
-| endpoint | end_point |
-| file_name | filename |
-| gridline | grid_line |
-| hashtable | hash_table |
-| metadata | meta_data |
-| multipanel | multi_panel |
-| namespace | name_space |
-| placeholder | place_holder |
-| sign_in | signin |
-| user_name | username |
-| white_space | whitespace |
+| BitFlag | bitflag |
+| Callback | CallBack |
+| DoNot | Dont |
+| Email | EMail |
+| Endpoint | EndPoint |
+| FileName | Filename |
+| Gridline | GridLine |
+| Hashtable | HashTable |
+| Metadata | MetaData |
+| Multipanel | MultiPanel |
+| SignIn | Signin |
+| UserName | Username |
+| WhiteSpace | Whitespace |
 
 ## Case Sensitivity
 C++ is case sensitive.
