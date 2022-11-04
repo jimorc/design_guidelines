@@ -1,6 +1,6 @@
 # General Naming Conventions
 
-This section describes general naming conventions that relate to work choice, guidelines on using
+This section describes general naming conventions that relate to word choice, guidelines on using
 abbreviations and acronyms, and recommendations on how to avoid using C++ names and keywords.
 
 ## Word Choice
@@ -9,16 +9,16 @@ abbreviations and acronyms, and recommendations on how to avoid using C++ names 
 
 | Yes | No |
 | --- | --- |
-| horizontal_alignment | alignment_horizontal |
-| horizontal_layout_panel | horz_layout |
-| frequency_digit | digit |
+| HorizontalAlignment | AlignmentHorizontal |
+| HorizontalLayoutPanel | HorzLayout |
+| FrequencyDigit | Digit |
 
 **✓ Do** favor readability over brevity
 
 | Yes | No |
 |--- | --- |
-| can_scroll_horizontally | scrollable_x |
-| frequency_digit | d_freq |
+| CanScrollHorizontally | ScrollableX |
+| FrequencyDigit | DFreq |
 
 **❌ Do not** use hyphens or other non-alphanumeric characters except underscores. The C++ compiler will prevent you
 from using most of these characters anyway.
@@ -34,19 +34,19 @@ widely used programming languages.
 
 | Yes | No |
 | --- | --- |
-| do_not | dont |
-| horizontal_layout_panel | horz_lo_pnl |
+| DoNot | Dont |
+| HorizontalLayoutPanel | HorzLoPnl |
 
 ## Avoid C++ Keywords
 
 **✓ Do** use semantically interesting names rather than language-specific keywords for type names.
 
-For example: to_length is a better name than to_int.
+For example: ToLength is a better name than ToInt.
 
 **✓ Do** use generic cstdint type names, rather than a C++ name, in the rare cases when an identifier has no
 semantic meaning beyond its type.
 
-For example, a method for converting to int64_t should be called to_int64, not to_long because int64_t is a
+For example, a method for converting to int64_t should be called ToInt64, not ToLongLong because int64_t is a
 cstdint name for the C++ alias long long.
 
 The following table presents several base data types using the cstdint type names as well as the corresponding type
