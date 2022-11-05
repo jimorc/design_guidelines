@@ -3,7 +3,7 @@
 ## General Type Naming
 The naming guidelines in this section apply to general type naming.
 
-**✓ Do** name classes and structs with nouns or noun phrases, using snake_case.
+**✓ Do** name classes and structs with nouns or noun phrases.
 
 This distinguishes type names from methods, which are named with verb phrases.
 
@@ -18,16 +18,16 @@ and not an interface.
 
 **🤔 Consider** ending the name of derived classes with the name of the base class.
 
-This is very readable and explains the relationship clearly. Some examples of this in code are: main_form, which is a
-type of form, and toggle_button, which is a type of button. However, it is important to use reasonable judgment in
-applying this guideline; for example, the button class is a kind of control event, although control does not appear 
+This is very readable and explains the relationship clearly. Some examples of this in code are: MainForm, which is a
+type of form, and ToggleButton, which is a type of Button. However, it is important to use reasonable judgment in
+applying this guideline; for example, the Button class is a kind of control event, although Control does not appear 
 in its name.
 
-**✓ Do** prefix interface names with the letter "i" to indicate that the type is an interface.
-For example, icomponent (descriptive noun), icustom_attribute_provider (noun phrase), and ipersistable
+**✓ Do** prefix interface names with the letter "I" to indicate that the type is an interface.
+For example, IComponent (descriptive noun), ICustomAttributeProvider (noun phrase), and IPersistable
 (adjective) are appropriate interace names. As with other types, avoid abbreviations.
 
-**✓ Do** ensure that the names differ only by the "i" prefix on the interface name when you are defining
+**✓ Do** ensure that the names differ only by the "I" prefix on the interface name when you are defining
 a class-interface pair with the class as a standard implementation of the interface.
 
 ## Names of Generic Type Parameters
@@ -63,52 +63,52 @@ template<typename session_t>
 
 **🤔 Consider** indicating constraints placed on a type parameter in the name of the parameter.
 
-For example, a parameter constrained to isession might be called *session_t*.
+For example, a parameter constrained to ISession might be called *session_t*.
 
 ## Names of Common Types
 
 **✓ Do** follow the guidelines described in the following table when naming types derived from or implementing
-certain xtd_widgets types.
+certain types.
 
 | Base Type | Derived/Implementing Type Guideline |
 | --- | --- |
-| xtd_widgets::delegate | **✓ Do** add the suffix "_event_handler" to names of delegates that are used in events. |
-| xtd_widgets::delegate | **✓ Do** add the suffix "_callback" to names of delegates other than those used as event handlers |
-| xtd_widgets::delegate | **❌ Do not** add the suffix "_delegate" to a delegate |
-| xtd_widgets::event_args | **✓ Do** add the suffix "_event_args". |
-| xtd_widgets::event_handler | **✓ Do** add the suffix "_event_handler". |
-| enum class | **❌ Do not** add the suffix "_enum" or "_flag". |
-| xtd_widgets::exception | **✓ Do** add the suffix "_exception". |
-| std::array | **✓ Do** add the suffix "_collection" for sequence containers. |
-| std::vector | **✓ Do** add the suffix "_collection" for sequence containers. |
-| std::deque | **✓ Do** add the suffix "_collection" for sequence containers. |
-| std::forward_list | **✓ Do** add the suffix "_collection" for sequence containers. |
-| std::list | **✓ Do** add the suffix "_collection" for sequence containers. |
-| std::set | **✓ Do** add the suffix "_dictionary" for associative containers. |
-| std::multiset | **✓ Do** add the suffix "_dictionary" for associative containers. |
-| std::map | **✓ Do** add the suffix "_dictionary" for associative containers. |
-| std::multimap | **✓ Do** add the suffix "_dictionary" for associative containers. |
-| std::unordered_set | **✓ Do** add the suffix "_dictionary" for associative containers. |
-| std::unordered_multiset | **✓ Do** add the suffix "_dictionary" for associative containers. |
-| std::unordered_map | **✓ Do** add the suffix "_dictionary" for associative containers. |
-| std::unordered_multimap | **✓ Do** add the suffix "_dictionary" for associative containers. |
-| std::span | **✓ Do** add the suffix "_span". |
-| std::istream | **✓ Do** add the suffix "_stream". |
-| std::ostream | **✓ Do** add the suffix "_stream". |
-| std::iostream | **✓ Do** add the suffix "_stream". |
+| xtd::delegate | **✓ Do** add the suffix "EventHandler" to names of delegates that are used in events. |
+| xtd::delegate | **✓ Do** add the suffix "Callback" to names of delegates other than those used as event handlers |
+| xtd::delegate | **❌ Do not** add the suffix "Delegate" to a delegate |
+| xtd::event_args | **✓ Do** add the suffix "EventArrgs". |
+| xtd::event_handler | **✓ Do** add the suffix "EventHandler". |
+| enum class | **❌ Do not** add the suffix "Enum" or "Flag". |
+| xtd::exception | **✓ Do** add the suffix "Exception". |
+| std::array | **✓ Do** add the suffix "Collection" for sequence containers. |
+| std::vector | **✓ Do** add the suffix "Collection" for sequence containers. |
+| std::deque | **✓ Do** add the suffix "Collection" for sequence containers. |
+| std::forward_list | **✓ Do** add the suffix "Collection" for sequence containers. |
+| std::list | **✓ Do** add the suffix "Collection" for sequence containers. |
+| std::set | **✓ Do** add the suffix "Dictionary" for associative containers. |
+| std::multiset | **✓ Do** add the suffix "Dictionary" for associative containers. |
+| std::map | **✓ Do** add the suffix "Dictionary" for associative containers. |
+| std::multimap | **✓ Do** add the suffix "Dictionary" for associative containers. |
+| std::unordered_set | **✓ Do** add the suffix "Dictionary" for associative containers. |
+| std::unordered_multiset | **✓ Do** add the suffix "Dictionary" for associative containers. |
+| std::unordered_map | **✓ Do** add the suffix "Dictionary" for associative containers. |
+| std::unordered_multimap | **✓ Do** add the suffix "Dictionary" for associative containers. |
+| std::span | **✓ Do** add the suffix "Span". |
+| std::istream | **✓ Do** add the suffix "Stream". |
+| std::ostream | **✓ Do** add the suffix "Stream". |
+| std::iostream | **✓ Do** add the suffix "Stream". |
 
 ## Naming Enumerations
 
-Names of enumeration type(also called enums) in general should follow the standard type-naming rules
-(snake_casing, etc.). However, there are additional guidelines that apply specifically to enums.
+Names of enumeration type (also called enums) in general should follow the standard type-naming rules
+(camelCasing, etc.). However, there are additional guidelines that apply specifically to enums.
 
 **✓ Do** use a singular type name for an enumeration unless its values are bit fields.
 
 **✓ Do** use a plural name for an enumeration with bit fields as values, also called a flags enumeration.
 
-**❌ Do not** use an "_enum" suffix in enum type names.
+**❌ Do not** use an "Enum" suffix in enum type names.
 
-**❌ Do not** use "_flag" or "_flags" in enum type names.
+**❌ Do not** use "Flag" or "Flags" in enum type names.
 
 **❌ Do not** use a prefix on enumeration value names (e.g. "rtf" for rich text enums).
 
