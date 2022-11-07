@@ -1,6 +1,6 @@
 # Names of Type Members
 
-Types are made of members: methods, properties, events, contstructors, and fields. The following sections describe
+Types are made of members: methods, properties, events, constructors, and fields. The following sections describe
 guildelines for naming type members.
 
 ## Names of Methods
@@ -9,77 +9,72 @@ Because methods are the means of taking action, the design guidelines require th
 Following this guideline serves to distinguish method names from property and type names, which are noun or adjective
 phrases.
 
-**✓ Do** give method names that are verbs or verb phrases.
+**✓ Do** use verbs or verb phrases for method names.
+
+**✓ Do** use PascalCase for method names.
 
 ```C++
-class big_number
+class BigNumber
 {
     public:
-        int compare_to(const big_number&) const noexcept;
-        void increment();
-};
-```
-
-**✓ Do** postfix private methods with an underscore.
-
-```C++
-class big_number
-{
-    public:
-        int compare_to(const big_number&) const noexcept;
-        void increment() { add_one_(); }
+        int CompareTo(const BigNumber&) const noexcept;
+        void Increment() { AddOne(); }
     private:
-        void add_one_();
+        void AddOne();
 };
 ```
 
 ## Names of Properties
 
-Unlike other members, properties should be given noun phrase or adjective names. This is because a property refers
-to data, and the name of the property reflects that. snake_casing is always used for property names.
+Properties are getters and setters for field values. Properties are a concept from C#, so they do not formally exist in C++, but are handy to think of because it is obvious that they access fields.
+
+Unlike other methods, properties should be given noun phrase or adjective names. This is because a property refers
+to data, and the name of the property reflects that.
 
 **✓ Do** name properties using a noun, noun phrase, or adjective.
 
-**❌ Do not** have properties that match the name of "get_" or "set_" methods.
+**❌ Do not** have properties that match the name of "Get" or "Set" methods.
+
+**✓ Do** use PascalCase when naming properties.
 
 ```C++
-class big_number
+class BigNumber
 {
     public:
-        long long value() const noexcept { return _value; }
-        void value(const long long& big_value) noexcept { _value = big_value; }
+        inline long long Value() const noexcept { return m_value; }
+        inline void Value(const long long& bigValue) noexcept { m_value = bigValue; }
     private:
-        long long _value;
+        long long m_value;
 };
 ```
 
-Using "get_" and "set_" indicates that the property should really be a method.
+Using "Get" and "Set" indicates that the property should really be a method.
 
 **✓ Do** name collection properties with a plural phrase describing the items in the collection instead of using
-a singular phrase followed by "_collection".
+a singular phrase followed by "Collection".
 
 ```C++
 class widget
 {
     public:
-        items_collection& items() { return _items; }
+        inline ItemsCollection& Items() const noexcept { return m_items; }
     private:
-        items_collection _items;
+        ItemsCollection m_items;
 }
+```
+**✓ Do** name boolean properties with an affirmative phrase (CanSeek instead of CannotSeek). Optionally, you can
+also prefix boolean properties with "Is", "Can", or "Has" but only where it adds value.
 
-**✓ Do** name boolean properties with an affirmative phrase (can_seek instead of cant_seek). Optionally, you can
-also prefix boolean properties with "is_", "can_", or "has_" but only where it adds value.
-
-**🤔 Consider** giving a property the same name as its type.
+**🤔 Consider** giving a property the same name as its field.
 
 ```C++
-class big_number
+class BigNumber
 {
     public:
-        long long& value() const noexcept { return _value; }
-        void value(const long long& big_value) noexcept { _value = big_value; }
+        inline long long Value() const noexcept { return m_value; }
+        inline void Value(const long long& bigValue) noexcept { m_value = bigValue; }
     private:
-        long long _value;
+        long long m_value;
 };
 ```
 
@@ -91,21 +86,21 @@ the event is raised.
 
 **✓ Do** name events with a verb or a verb phrase.
 
-Examples include "clicked", "painting", "dropped_down", and so forth.
+Examples include "Clicked", "Painting", "DroppedDown", and so forth.
 
-**✓ Do** give event names with a concept of before or after, using present and past tenses.
+**✓ Do** give events names with a concept of before or after, using present and past tenses.
 
-For example, a close event that is raised before a window is closed would be called "closing", and one that is
-raised after the window is closed would be called "closed".
+For example, a close event that is raised before a window is closed would be called "Closing", and one that is
+raised after the window is closed would be called "Closed".
 
-**❌ Do not** use "before_" or "after_" prefixes or postfixes to indicate pre- and post-events. Use present
+**❌ Do not** use "Before" or "After" prefixes or postfixes to indicate pre- and post-events. Use present
 and past tenses as just described.
 
-**✓ Do** name event handlers (delegates uses as types of events) with the "_event_handler" suffix, as shown
+**✓ Do** name event handlers (delegates used as types of events) with the "EventHandler" suffix, as shown
 in the following example:
 
 ```C++
-using clicked_event_handler = delegate<void(object&, consst event_args&)>;
+using ClickedEventHandler = delegate<void(object&, const EventArgs&)>;
 ```
 
 **✓ Do** use two parameters named *sender* and *e* in event handlers.
@@ -113,17 +108,17 @@ using clicked_event_handler = delegate<void(object&, consst event_args&)>;
 The *sender* parameter represents the object that raised the event. The *sender* parameter is typically of type
 *object*, even if it is possible to employ a more specific type.
 
-**✓ Do** name event argument classes with the "event_args" suffix.
+**✓ Do** name event argument classes with the "EventArgs" suffix.
 
 ## Names of Fields
 
 ### Static Public and Protected Fields
 
-**✓ Do** use snake_casing in field names.
+**✓ Do** use camelCase in field names.
 
 **✓ Do** name fields using a noun, noun phrase, or adjective.
 
-**❌ Do not** use a prefix for field names.
+**❌ Do not** use a prefix for global field names.
 
 For example, do not use "g_" or "s_" to indicate static fields.
 
@@ -135,16 +130,16 @@ For example, do not use "g_" or "s_" to indicate static fields.
 
 ## Private Instance Fields
 
-**✓ Do** postfix all private instance fields with an underscore.
+**✓ Do** postfix all private instance fields with "m_".
 
 ```C++
-class big_number
+class BigNumber
 {
     public:
-        long long& value() const noexcept { return _value; }
-        void value(const long long& big_value) noexcept { _value = big_value; }
+        long long& Value() const noexcept { return m_value; }
+        void Value(const long long& bigValue) noexcept { m_value = bigValue; }
     private:
-        long long value_;
+        long long m_value;
 };
 ```
 
