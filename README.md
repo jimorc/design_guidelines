@@ -1,5 +1,10 @@
 # Coding and Design Guidelines
 
+**This project has been terminated. For about the fourth time in my life, I have become too frustrated with C++ to continue this.**
+
+These guidelines also do not represent my current coding and design practices. I was waiting until they had stabilized before updating this project
+but now that point is moot.
+
 Good coding and design guidelines ensure that:
 
 * There is a consistent look to a project's code.
